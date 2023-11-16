@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 650px) {
+    div#video {
+        height: 450px;
+    }
+}
+
+
+@media screen and (min-width: 768px){
+    div#image1 {
+        background-image: url(../imagens/dan-droids.png);
+        margin: 0px 20px 0px 20px;
+    }
+
+    div#image2 {
+        background-image: url(../imagens/irina-blok.jpg);
+        margin: 0px 20px 0px 20px;
+    }
+
+    div#video {
+        height: 600px;
+    }
+
+    div#video > iframe {
+        height: 87.2%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    span#burger {
+        display: none;
+    }
+    
+    menu {
+        justify-content: space-around;
+    }
+
+    menu > ul > li{
+        display: inline-flex;
+        margin: 0px 15px;
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    menu > ul > li > a {
+        border: none;
+        font-weight: bolder;
+        font-size: 1.2em;
+    }
+}
